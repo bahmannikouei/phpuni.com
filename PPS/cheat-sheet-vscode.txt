@@ -1,0 +1,74 @@
+Editing I
+shift+ctrl+↵Insert line above
+ctrl+↵Insert line below
+shift+ctrl+KDelete line
+shift+alt+UPCopy line up
+shift+alt+DOWNCopy line down
+alt+UPMove line up
+alt+DOWNMove line down
+Editing II
+shift+ctrl+]Unfold region
+shift+ctrl+[Fold region
+ctrl+[Outdent line
+ctrl+]Indent line
+shift+ctrl+\Jump to matching bracket
+Editing III
+alt+ZToggle word wrap
+shift+alt+AToggle block comment
+ctrl+/Toggle line comment
+ctrl+Kctrl+JUnfold all regions
+ctrl+Kctrl+0Fold all regions
+ctrl+Kctrl+]Unfold all subregions
+ctrl+Kctrl+[Fold all subregions
+Multi-cursor / Selection I
+shift+ctrl+LSelect all occurrences of current selection
+ctrl+ISelect current line
+shift+alt+IInsert cursor at end of each line selected
+ctrl+UUndo last cursor operation
+alt+ctrl+DOWNInsert cursor below
+alt+ctrl+UPInsert cursor above
+Multi-cursor / Selection II
+shift+alt+ctrl+LEFTColumn box selection left
+shift+alt+ctrl+RIGHTColumn box selection right
+shift+alt+ctrl+DOWNColumn box selection down
+shift+alt+ctrl+UPColumn box selection up
+shift+alt+LEFTShrink selection
+shift+alt+RIGHTExpand selection
+Search / Replace I
+ctrl+Kctrl+DMove last selection to next Find match
+alt+↵Select all occurrences of Find match
+ctrl+DAdd selection to next Find match
+shift+F3Find previous
+F3Find next
+ctrl+HReplace
+ctrl+FFind
+Rich Languages Editing I
+alt+F12Peek definition
+F12Go to definition
+ctrl+Kctrl+FFormat selection
+shift+alt+FFormat document
+shift+ctrl+[SPACE]Trigger parameter hints
+ctrl+[SPACE]Trigger suggestion
+Rich Languages Editing II
+ctrl+KMChange file language
+ctrl+Kctrl+XTrim trailing whitespace
+F2Rename symbol
+shift+F12Show references
+ctrl+.Quick fix
+ctrl+KF12Open definition to the side
+Navigation I
+ctrl+MToggle tab moves focus
+alt+RIGHTGo forward
+alt+LEFTGo back
+shift+F8Go to previous error or warning
+F8Go to next error or warning
+shift+ctrl+MShow problems panel
+shift+ctrl+OGo to symbol...
+ctrl+PGo to file...
+ctrl+GGo to line...
+Editor Management I
+ctrl+3Focus into 3rd editor window
+ctrl+2Focus into 2nd editor window
+ctrl+1Focus info 1st editor window
+ctrl+\Split editor
+ctrl+KFClose folder
