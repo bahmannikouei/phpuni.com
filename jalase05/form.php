@@ -6,7 +6,7 @@
     }
 </style>
 <html>
-   <form action="./form.php" method="post">
+   <form action="./form.php" method="get">
     <label for="firstName">Name:</label>
      <input type="text" name='firstName' id='firstName'> <br>
     <label for="lastName">Last Name:</label>
@@ -33,7 +33,13 @@
 
     }
 
-    if($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_POST['submit'])){
+    // if($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_POST['submit'])){
+    //     echo 'لطفا از متد POST استفاده کنید';
+    // }
+
+    // دلیل مشکل این بود که وقتی از متد گت استفاده میشد  اما شرط متد پست را بررسی میکردیم اما الان صحیح نوشته شد
+
+    if($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['submit'])){
         echo 'لطفا از متد POST استفاده کنید';
     }
 
