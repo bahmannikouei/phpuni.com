@@ -17,7 +17,7 @@ $mysqli = new mysqli($host, $user, $password, $databasename);
 if($mysqli->connect_error){
     die("Error connecting to database".$mysqli->connect_error);
 }
-echo "Connected database is OK.";
+echo "Connected database is OK."."</br>";
 
 
 ?>

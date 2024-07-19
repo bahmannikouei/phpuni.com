@@ -1,7 +1,22 @@
 <?php
-// require ('./connention.php');
 require ("./sqlconnection.php");
+// echo "<pre>";
+// var_dump($mysqli->query("SELECT * FROM teachers"));
+// echo "</pre>";
 
-echo "This is q1";
+$queryAllData ="SELECT * FROM teachers";
+$queryName ="SELECT name FROM teachers";
+$queryStudentsTable = "SELECT * FROM students";
+$result = $mysqli->query($queryAllData);
+var_dump($result);
+
+if($result->num_rows > 0){
+        while($row = $result->fetch_assoc()){
+                echo $row['id'] . $row['name']. $row['tel']."<br>";
+            }
+}else {
+    echo "جدول ما دیتا ندارد چیزی پیدا نشد";
+}
+
 
 ?>
